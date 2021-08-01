@@ -1,0 +1,29 @@
+WIDTH = 900
+
+WIDTH_PANEL = WIDTH
+HEIGHT_PANEL = 120
+
+HEIGHT = HEIGHT_PANEL + 400
+
+FPS = 60
+
+#colors
+RED = (100, 0, 0)
+GREEN = (0, 100, 0)
+BLUE = (0, 0, 100)
+BROWN = (75, 54, 33)
+BLACK = (0, 0, 0)
+WHITE  = (255, 255, 255)
+
+enemies1 = [[WIDTH+150, HEIGHT_PANEL+40, 30, 30],
+            [WIDTH+250, HEIGHT_PANEL+80, 30, 30],
+            [WIDTH+250, HEIGHT_PANEL+160, 30, 30],
+            [WIDTH+150, HEIGHT_PANEL+200, 30, 30]]
+
+enemies2 = [[WIDTH, HEIGHT_PANEL+50, 30, 30],
+            [WIDTH+130, HEIGHT_PANEL+90, 30, 30],
+            [WIDTH+230, HEIGHT_PANEL+140, 30, 30],
+            [WIDTH+330, HEIGHT_PANEL+180, 30, 30],
+            [WIDTH+230, HEIGHT_PANEL+220, 30, 30],
+            [WIDTH+130, HEIGHT_PANEL+260, 30, 30],
+            [WIDTH, HEIGHT_PANEL+300, 30, 30]]
